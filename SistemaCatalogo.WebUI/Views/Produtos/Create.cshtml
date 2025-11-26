@@ -1,0 +1,9 @@
+@model SistemaCatalogo.Application.DTOs.ProdutoCreateUpdateDTO
+
+@{
+    ViewData["Title"] = "Criar Novo Produto";
+}
+
+@await Html.PartialAsync("ViewBag.CategoriaId", Model)
+
+

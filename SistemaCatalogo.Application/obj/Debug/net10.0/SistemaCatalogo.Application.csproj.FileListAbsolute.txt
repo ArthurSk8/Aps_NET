@@ -1,0 +1,15 @@
+C:\Users\Arthur\Desktop\TrabalhoFinal\SistemaCatalogo.Application\bin\Debug\net10.0\SistemaCatalogo.Application.deps.json
+C:\Users\Arthur\Desktop\TrabalhoFinal\SistemaCatalogo.Application\bin\Debug\net10.0\SistemaCatalogo.Application.dll
+C:\Users\Arthur\Desktop\TrabalhoFinal\SistemaCatalogo.Application\bin\Debug\net10.0\SistemaCatalogo.Application.pdb
+C:\Users\Arthur\Desktop\TrabalhoFinal\SistemaCatalogo.Application\bin\Debug\net10.0\SistemaCatalogo.Domain.dll
+C:\Users\Arthur\Desktop\TrabalhoFinal\SistemaCatalogo.Application\bin\Debug\net10.0\SistemaCatalogo.Domain.pdb
+C:\Users\Arthur\Desktop\TrabalhoFinal\SistemaCatalogo.Application\obj\Debug\net10.0\SistemaCatalogo.Application.csproj.AssemblyReference.cache
+C:\Users\Arthur\Desktop\TrabalhoFinal\SistemaCatalogo.Application\obj\Debug\net10.0\SistemaCatalogo.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arthur\Desktop\TrabalhoFinal\SistemaCatalogo.Application\obj\Debug\net10.0\SistemaCatalogo.Application.AssemblyInfoInputs.cache
+C:\Users\Arthur\Desktop\TrabalhoFinal\SistemaCatalogo.Application\obj\Debug\net10.0\SistemaCatalogo.Application.AssemblyInfo.cs
+C:\Users\Arthur\Desktop\TrabalhoFinal\SistemaCatalogo.Application\obj\Debug\net10.0\SistemaCatalogo.Application.csproj.CoreCompileInputs.cache
+C:\Users\Arthur\Desktop\TrabalhoFinal\SistemaCatalogo.Application\obj\Debug\net10.0\SistemaC.4C7B6490.Up2Date
+C:\Users\Arthur\Desktop\TrabalhoFinal\SistemaCatalogo.Application\obj\Debug\net10.0\SistemaCatalogo.Application.dll
+C:\Users\Arthur\Desktop\TrabalhoFinal\SistemaCatalogo.Application\obj\Debug\net10.0\refint\SistemaCatalogo.Application.dll
+C:\Users\Arthur\Desktop\TrabalhoFinal\SistemaCatalogo.Application\obj\Debug\net10.0\SistemaCatalogo.Application.pdb
+C:\Users\Arthur\Desktop\TrabalhoFinal\SistemaCatalogo.Application\obj\Debug\net10.0\ref\SistemaCatalogo.Application.dll

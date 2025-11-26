@@ -1,0 +1,70 @@
+@model IEnumerable<SistemaCatalogo.Application.DTOs.ProdutoViewDTO>
+
+@{
+    ViewData["Title"] = "Gerenciamento de Produtos";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="text-primary m-0">Gerenciamento de Produtos</h1>
+        <div>
+            <a asp-controller="Categorias" asp-action="Index" class="btn btn-outline-primary me-2">
+                Ir para Categorias
+            </a>
+            <a asp-action="Create" class="btn btn-success">
+                Novo Produto
+            </a>
+        </div>
+    </div>
+
+    @* Requisito 7: Barra de Busca Dinâmica com AJAX *@
+    <div class="mb-4">
+        <input type="text"
+               id="searchInput"
+               class="form-control"
+               placeholder="Buscar por Nome ou Descrição..." />
+    </div>
+
+    @* Esta div será atualizada pelo AJAX com a tabela de produtos *@
+    <div id="productList">
+        @await Html.PartialAsync("_ProdutoListPartial", Model)
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Função para carregar a lista de produtos via AJAX
+            function loadProductList(searchTerm) {
+                $.ajax({
+                    url: '@Url.Action("SearchAjax", "Produtos")', // Chama o método SearchAjax no ProdutosController
+                    type: 'GET',
+                    data: { searchTerm: searchTerm },
+                    success: function (partialView) {
+                        $('#productList').html(partialView); // Atualiza o conteúdo da div
+                    },
+                    error: function (error) {
+                        console.error("Erro ao carregar a busca:", error);
+                        $('#productList').html('<p class="text-danger">Erro ao carregar os dados. Tente novamente.</p>');
+                    }
+                });
+            }
+
+            // Ativa o evento de digitação no campo de busca (debounce para evitar muitas requisições)
+            var timer;
+            $('#searchInput').on('keyup', function () {
+                clearTimeout(timer);
+                var searchTerm = $(this).val();
+                
+                // Espera 300ms após a última tecla ser pressionada antes de buscar
+                timer = setTimeout(function () {
+                    loadProductList(searchTerm);
+                }, 300); 
+            });
+            
+            // Carregamento inicial (apenas se a busca estiver vazia)
+            loadProductList(''); 
+        });
+    </script>
+}

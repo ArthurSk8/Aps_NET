@@ -1,0 +1,11 @@
+C:\Users\Arthur\Desktop\TrabalhoFinal\SistemaCatalogo.Domain\bin\Debug\net10.0\SistemaCatalogo.Domain.deps.json
+C:\Users\Arthur\Desktop\TrabalhoFinal\SistemaCatalogo.Domain\bin\Debug\net10.0\SistemaCatalogo.Domain.dll
+C:\Users\Arthur\Desktop\TrabalhoFinal\SistemaCatalogo.Domain\bin\Debug\net10.0\SistemaCatalogo.Domain.pdb
+C:\Users\Arthur\Desktop\TrabalhoFinal\SistemaCatalogo.Domain\obj\Debug\net10.0\SistemaCatalogo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arthur\Desktop\TrabalhoFinal\SistemaCatalogo.Domain\obj\Debug\net10.0\SistemaCatalogo.Domain.AssemblyInfoInputs.cache
+C:\Users\Arthur\Desktop\TrabalhoFinal\SistemaCatalogo.Domain\obj\Debug\net10.0\SistemaCatalogo.Domain.AssemblyInfo.cs
+C:\Users\Arthur\Desktop\TrabalhoFinal\SistemaCatalogo.Domain\obj\Debug\net10.0\SistemaCatalogo.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Arthur\Desktop\TrabalhoFinal\SistemaCatalogo.Domain\obj\Debug\net10.0\SistemaCatalogo.Domain.dll
+C:\Users\Arthur\Desktop\TrabalhoFinal\SistemaCatalogo.Domain\obj\Debug\net10.0\refint\SistemaCatalogo.Domain.dll
+C:\Users\Arthur\Desktop\TrabalhoFinal\SistemaCatalogo.Domain\obj\Debug\net10.0\SistemaCatalogo.Domain.pdb
+C:\Users\Arthur\Desktop\TrabalhoFinal\SistemaCatalogo.Domain\obj\Debug\net10.0\ref\SistemaCatalogo.Domain.dll
